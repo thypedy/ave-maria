@@ -1,0 +1,24 @@
+:root {
+    --fundo:#226BBE;
+    --cor1:#73B9F1;
+    --cor2:#C6E1F6;
+    --cor3:#ECF7FF;
+    --branco:#F8FCFF;
+}
+
+*{
+    /*font-family*/
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 70%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem; /*Grudar no item seguinte ou anterior*/
+    scroll-behavior: smooth; /*Ao clicar em um link, navega para outro topico suave da pag*/
+}

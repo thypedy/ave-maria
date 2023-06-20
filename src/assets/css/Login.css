@@ -1,0 +1,39 @@
+.logar{
+    display: flex;
+    justify-content: center;
+    background: var(--fundo);
+    text-decoration: none;
+    color: var(--branco);
+    padding: 1rem 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form{
+    margin: 5rem 4rem 0 4rem;
+    background: var(--cor2);
+    border-radius: 10px;
+    padding: 2.5rem;
+}
+
+.texto{
+    margin-bottom: 2rem;
+}
+
+.textos{
+    font-size: 12px;
+    background: var(--cor2);
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    margin-bottom: 0.5rem;
+}
+
+.check_button{
+    margin-bottom: 0.5rem;
+}
+
+.voltarcadastro{
+    color: gray;
+}

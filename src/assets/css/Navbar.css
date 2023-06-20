@@ -1,0 +1,15 @@
+.tamanho{
+    height: 5rem;
+    border-bottom: 1px solid var(--cor1);
+}
+
+.texto1{
+    border-radius: 10px;
+    border: 1px solid #969696;
+    background: #C5C5C5;
+    opacity: 0.5;
+}
+
+.menu{
+    border: none;
+}

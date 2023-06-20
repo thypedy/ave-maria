@@ -1,0 +1,49 @@
+.corpo{
+    width: 100vw;
+    height: 100vh;
+    background: var(--fundo);
+}
+
+.celular{
+    margin-top: 35%;
+    height: 20rem;
+    width: 100%;
+}
+
+.botao{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30rem;
+    
+}
+
+.botao .login{
+    background: var(--branco);
+    padding: 1rem 12rem;
+    border-radius: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.botao .cadastro{
+    margin-top: 10px;
+    font-size: 15px;
+    text-decoration-color: var(--branco);
+    color: var(--branco);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+@media only screen and (min-width: 380px) {
+    /* styles for devices with a minimum screen width of 480px */
+    img{
+        width: 100%;
+    }
+    .celular{
+        margin-top: 20%;
+    }
+}
